@@ -1,0 +1,66 @@
+[
+  {
+    "key": "kayaking_udupi",
+    "title": "Kayaking",
+    "location_tag": "Udupi",
+    "description": "Curated small-group experience. Certified guide. Safety first with gear included.",
+    "price": 999,
+    "image_url": "/images/kayaking-1.jpg"
+  },
+  {
+    "key": "nandi_hills_bangalore",
+    "title": "Nandi Hills Sunrise",
+    "location_tag": "Bangalore",
+    "description": "Witness the breathtaking sunrise from the top of Nandi Hills.",
+    "price": 899,
+    "image_url": "/images/nandi-hills-1.jpg"
+  },
+  {
+    "key": "coffee_trail_coorg",
+    "title": "Coffee Trail",
+    "location_tag": "Coorg",
+    "description": "Explore the lush coffee plantations of Coorg. Learn about the coffee-making process.",
+    "price": 1299,
+    "image_url": "/images/coffee-trails-1.jpg"
+  },
+  {
+    "key": "kayaking_karnataka",
+    "title": "Kayaking",
+    "location_tag": "Udupi, Karnataka",
+    "description": "Curated small-group experience. Certified guide. Safety first with gear included.",
+    "price": 999,
+    "image_url": "/images/kayaking-2.jpg"
+  },
+  {
+    "key": "ananthagiri_vikarabad",
+    "title": "Ananthgiri Hills Sunrise",
+    "location_tag": "Vikarabad",
+    "description": "Witness the breathtaking sunrise from the top of Ananthagiri Hills.",
+    "price": 899,
+    "image_url": "/images/nandi-hills-2.jpg"
+  },
+  {
+    "key": "coffee_trail_munnar",
+    "title": "Coffee Trail",
+    "location_tag": "Munnar",
+    "description": "Explore the lush coffee plantations of Munnar. Learn about the coffee-making process.",
+    "price": 1299,
+    "image_url": "/images/coffee-trails-2.jpg"
+  },
+  {
+    "key": "bunjee_jumping_manali",
+    "title": "Bunjee Jumping",
+    "location_tag": "Manali",
+    "description": "Being pulled back up, only to freefall again, experiencing a bouncing trampoline-like motion.",
+    "price": 999,
+    "image_url": "/images/bunjee-jumping.jpg"
+  },
+  {
+    "key": "boat_cruise_sunderban",
+    "title": "Boat Cruise",
+    "location_tag": "Sunderban",
+    "description": "Set sail for new horizons, where adventure meets the sea.",
+    "price": 2999,
+    "image_url": "/images/boat-cruise.jpg"
+  }
+]

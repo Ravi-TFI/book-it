@@ -1,0 +1,4 @@
+[
+    { "code": "SAVE10", "type": "PERCENT", "value": 10 },
+    { "code": "FLAT100", "type": "FLAT", "value": 100 }
+]
