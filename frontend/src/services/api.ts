@@ -1,38 +1,3 @@
-// // frontend/src/services/api.ts
-// import axios from 'axios';
-// import { Experience, ExperienceDetails } from '../types';
-
-// const API_BASE_URL = 'http://localhost:5000'; // Your backend URL
-
-// const api = axios.create({
-//   baseURL: API_BASE_URL,
-// });
-
-// export const getExperiences = (): Promise<Experience[]> => 
-//   api.get('/api/experiences').then(res => res.data);
-
-// export const getExperienceDetails = (id: string): Promise<ExperienceDetails> =>
-//   api.get(`/api/experiences/${id}`).then(res => res.data);
-  
-// // Add functions for booking and promo validation here
-
-// // Interceptor to add base URL to image_url
-// api.interceptors.response.use(response => {
-//     if (response.data) {
-//         // If it's an array of experiences
-//         if (Array.isArray(response.data)) {
-//             response.data.forEach(item => {
-//                 if (item.image_url) item.image_url = `${API_BASE_URL}${item.image_url}`;
-//             });
-//         } 
-//         // If it's a single experience detail
-//         else if (response.data.details && response.data.details.image_url) {
-//             response.data.details.image_url = `${API_BASE_URL}${response.data.details.image_url}`;
-//         }
-//     }
-//     return response;
-// });
-
 import axios from 'axios';
 import { Experience, ExperienceDetails, BookingPayload } from '../types/index';
 

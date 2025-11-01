@@ -1,16 +1,3 @@
-// const express = require('express');
-// const router = express.Router();
-// const experience = require('../controllers/experience');
-
-
-
-// router.get('/experiences', experience.getAllExperiences);
-// router.get('/experiences/:id', experience.getExperienceById);
-
-
-
-// module.exports = router;
-
 const express = require('express');
 const router = express.Router();
 

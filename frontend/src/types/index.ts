@@ -1,12 +1,3 @@
-// export interface Experience {
-//   id: number;
-//   title: string;
-//   location_tag: string;
-//   description: string;
-//   price: number;
-//   image_url: string;
-// }
-
 export interface Experience {
   id: number;
   title: string;

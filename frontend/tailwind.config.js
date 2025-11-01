@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        'brand-yellow': '#FFC700', // Using a placeholder, adjust from Figma
+        'brand-yellow': '#FFC700', 
         'brand-yellow-dark': '#E6B300',
       },
     },
