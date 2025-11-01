@@ -36,14 +36,16 @@
 import axios from 'axios';
 import { Experience, ExperienceDetails, BookingPayload } from '../types/index';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
 
 const api = axios.create({ baseURL: API_BASE_URL });
 
 api.interceptors.response.use(response => {
     const prependBaseUrl = (item: any) => {
         if (item && item.image_url) {
-            item.image_url = `${API_BASE_URL}${item.image_url}`;
+            if (!item.image_url.startsWith('http')) {
+                item.image_url = `${API_BASE_URL}${item.image_url}`;
+            }
         }
     };
     if (Array.isArray(response.data)) {
